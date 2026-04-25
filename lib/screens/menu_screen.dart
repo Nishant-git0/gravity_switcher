@@ -17,10 +17,11 @@ class MenuScreen extends StatelessWidget {
               Center(
                 child: Opacity(
                   opacity: 0.05,
-                  child: const Icon(
-                    Icons.swap_vert_rounded,
-                    size: 400,
-                    color: Colors.white,
+                  child: Image.asset(
+                    'assets/icon/icon.png',
+                    width: 400,
+                    height: 400,
+                    opacity: const AlwaysStoppedAnimation(0.2),
                   ),
                 ),
               ),
